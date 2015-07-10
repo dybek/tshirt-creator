@@ -29,7 +29,7 @@ war {
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-apply from: 'yeoman.gradle'
+//apply from: 'yeoman.gradle'
 
 repositories {
 	mavenCentral()
