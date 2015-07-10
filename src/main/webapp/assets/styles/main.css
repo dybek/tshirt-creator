@@ -1,78 +1,83 @@
+#the-canvas{
+	width:978;
+	height:870;
+}
 body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+	background: #fafafa;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333;
+	padding: 30px;
 }
 
 /* ==========================================================================
 Hide ng-cloak on page load, https://docs.angularjs.org/api/ng/directive/ngCloak
 ========================================================================== */
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
-    display: none !important;
+	display: none !important;
 }
 
 /* ==========================================================================
 Developement Ribbon
 ========================================================================== */
 .development {
-    position: absolute;
-    width: 149px;
-    height: 149px;
-    top: 0;
-    left: 0;
-    border: 0;
-    z-index: 1000;
-    background-image: url("../images/development_ribbon.png");
-    background-position: center center;
-    background-repeat: no-repeat;
+	position: absolute;
+	width: 149px;
+	height: 149px;
+	top: 0;
+	left: 0;
+	border: 0;
+	z-index: 1000;
+	background-image: url("../images/development_ribbon.png");
+	background-position: center center;
+	background-repeat: no-repeat;
 }
 
 /* ==========================================================================
 Version number in navbar
 ========================================================================== */
 .navbar-version {
-    font-size: 10px;
-    color: #ccc
+	font-size: 10px;
+	color: #ccc
 }
 
 /* ==========================================================================
 Browser Upgrade Prompt
 ========================================================================== */
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
 
 .hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
+	margin: 50px auto 0 auto;
+	width: 300px;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 30px;
+	background-color: #eee;
+	border-radius: 6px;
+	padding: 60px;
 }
 
 .hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: -1px;
 }
 
 .error {
-    color: white;
-    background-color: red;
+	color: white;
+	background-color: red;
 }
 
 .hipster {
-    display: inline-block;
-    width: 347px;
-    height: 497px;
-    background: url("../images/hipster.png") no-repeat center top;
-    background-size: contain;
+	display: inline-block;
+	width: 347px;
+	height: 497px;
+	background: url("../images/hipster.png") no-repeat center top;
+	background-size: contain;
 }
 
 /* wait autoprefixer update to allow simple generation of high pixel density media query */
@@ -83,33 +88,33 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-    .hipster {
-        background: url("../images/hipster2x.png") no-repeat center top;
-        background-size: contain;
-    }
+	.hipster {
+		background: url("../images/hipster2x.png") no-repeat center top;
+		background-size: contain;
+	}
 }
 
 .hand {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 #threadDump .popover, #healthCheck .popover {
-    top: inherit;
-    display: block;
-    font-size: 10px;
-    max-width: 1024px;
+	top: inherit;
+	display: block;
+	font-size: 10px;
+	max-width: 1024px;
 }
 
 #healthCheck .popover {
-    margin-left: -50px;
+	margin-left: -50px;
 }
 
 .health-details {
-    min-width: 400px;
+	min-width: 400px;
 }
 
 .alert .popover pre {
-    font-size: 10px;
+	font-size: 10px;
 }
 
 .voffset  { margin-top: 2px; }
@@ -125,23 +130,48 @@ only screen and (                min-resolution: 2dppx) {
 
 /* start Password strength bar style */
 ul#strengthBar {
-    display:inline;
-    list-style:none;
-    margin:0;
-    margin-left:15px;
-    padding:0;
-    vertical-align:2px;
+	display:inline;
+	list-style:none;
+	margin:0;
+	margin-left:15px;
+	padding:0;
+	vertical-align:2px;
 }
 
 .point:last {
-    margin:0 !important;
+	margin:0 !important;
 }
 .point {
-    background:#DDD;
-    border-radius:2px;
-    display:inline-block;
-    height:5px;
-    margin-right:1px;
-    width:20px;
+	background:#DDD;
+	border-radius:2px;
+	display:inline-block;
+	height:5px;
+	margin-right:1px;
+	width:20px;
 }
 /* end Password strength bar style */
+#textInput{
+	width: 400px;
+	height: 90px;
+	outline-color: green;
+}
+#text label{
+	margin-top: 8px;
+}
+.buttons{
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.buttons *{
+	margin-right: 10px;
+	cursor: pointer;
+	transition: 0.5s ease all;
+}
+.buttons a:hover{
+	color: green;
+}
+#status{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
