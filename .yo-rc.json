@@ -1,0 +1,6 @@
+{
+  "generator-spring": {
+    "packageName": "pl.astrait.traincreator",
+    "packageFolder": "pl/astrait/traincreator"
+  }
+}

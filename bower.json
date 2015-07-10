@@ -1,0 +1,11 @@
+{
+	"name": "tshirtCreator",
+	"version": "0.0.1",
+	"appPath": "src/main/webapp",
+	"testPath": "src/test/javascript/spec",
+	"dependencies": {
+		"jquery": "2.1.3",
+		"bootstrap": "3.3.4",
+		"fabric":"~1.4.13"
+	}
+}
