@@ -8,6 +8,10 @@ Aplikację można uruchomić poleceniem:
 ```
 gradlew bootRun
 ```
+Aplikację można zbudować poleceniem:
+```
+gradlew build
+```
 Po uruchomieniu aplikacja dostępna jest pod adresem: [http://localhost:8080](http://localhost:8080)
 
 Aplikacja została napisana przy wykorzystaniu języka Javascript oraz Java.
