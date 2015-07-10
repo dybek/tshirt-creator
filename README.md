@@ -4,14 +4,11 @@ Aplikacja została napisane przy użyciu Spring Boot oraz JHipster.
 JHipster jest generatorem szablonu aplikacji.
 W przypadku tej aplikacji wygenerowany szablon został oczyszczony z paru niepotrzebnych rzeczy.
 
-Aplikację można zbudować za pomocą polecenia:
-```
-gradlew build
-```
 Aplikację można uruchomić poleceniem:
 ```
 gradlew bootRun
 ```
+Po uruchomieniu aplikacja dostępna jest pod adresem: [http://localhost:8080](http://localhost:8080)
 
 Aplikacja została napisana przy wykorzystaniu języka Javascript oraz Java.
 
