@@ -153,10 +153,12 @@ ul#strengthBar {
 #textInput{
 	width: 400px;
 	height: 90px;
-	outline-color: green;
+	outline-color: #179eda;
+	padding: 4px;
 }
 #text label{
-	margin-top: 8px;
+	font-size: 25px;
+	margin-bottom: 20px;
 }
 .buttons{
 	padding-bottom: 20px;
@@ -168,10 +170,17 @@ ul#strengthBar {
 	transition: 0.5s ease all;
 }
 .buttons a:hover{
-	color: green;
+	color: #179eda;
 }
 #status{
 	position: absolute;
 	right: 20px;
 	top: 20px;
+}
+.canvas-container{
+	margin-left: 450px;
+}
+aside{
+	width: 400px;
+	float: left;
 }
